@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+}
+
+#site-header {
+    background-color: red;
+}
+
+.encabezado {
+    color: darkred;
+}
+
+#mayusculas {
+    text-transform: uppercase;
+}
