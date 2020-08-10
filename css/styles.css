@@ -169,3 +169,28 @@ h4{
 .contenido-contacto p {
     font-size: 1.8rem;
 }
+
+/*Seccion Inferior*/
+.seccion-inferior {
+    display: flex;
+    justify-content: space-between;
+}
+.seccion-inferior .blog {
+    flex-basis: 60%;
+}
+.seccion-inferior .testimoniales {
+    flex-basis: calc(40% - 2rem);
+}
+.entrada-blog {
+    display: flex;
+    justify-content: space-between;
+}
+.entrada-blog .imagen {
+    flex-basis: 40%;
+}
+.entrada-blog .texto-entrada {
+    flex-basis: calc(60% - 3rem);
+}
+.entrada-blog h4 {
+    margin: 0;
+}
