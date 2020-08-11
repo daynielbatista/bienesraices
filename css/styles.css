@@ -184,12 +184,18 @@ h4{
 .entrada-blog {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
+
 .entrada-blog .imagen {
     flex-basis: 40%;
 }
 .entrada-blog .texto-entrada {
     flex-basis: calc(60% - 3rem);
+}
+.texto-entrada a {
+    color: black;
+    text-decoration: none;
 }
 .entrada-blog h4 {
     margin: 0;
