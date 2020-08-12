@@ -186,7 +186,6 @@ h4{
     justify-content: space-between;
     margin-bottom: 2rem;
 }
-
 .entrada-blog .imagen {
     flex-basis: 40%;
 }
@@ -200,4 +199,22 @@ h4{
 .entrada-blog h4 {
     margin: 0;
     line-height: 3rem;
+}
+.texto-entrada h4::after {
+    content: '';
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    background-color: #71b100;
+    margin-top: 1rem;
+}
+.texto-entrada span {
+    color: #e08709;
+}
+.testimonial {
+    background-color: #71b100;
+    font-size: 2.4rem;
+    padding: 2rem;
+    color: white;
+    border-radius: 2rem;    
 }
