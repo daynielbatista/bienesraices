@@ -33,12 +33,33 @@
         <h2 class="fw-300 centrar-texto">Llenar Formulario de Contacto</h2>
 
         <form action="">
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" placeholder="Tu Nombre">
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Tu Nombre">
 
-            
-            <input type="text">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Tu Correo Electronico" required>
 
+                <label for="telefono">Telefono:</label>
+                <input type="tel" id="telefono" placeholder="Tu Telefono" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje"></textarea>
+
+                <input type="submit">
+            </fieldset>
+
+            <fieldset>
+                <legend>Informacion sobre Propiedad</legend>
+                <label for="opciones">Vendes o Compras</label>
+                <select id="opciones">
+                    <option value="" disabled>-- Seleccione --</option>
+                    <option value="">Compra</option>
+                    <option value="">Vende</option>
+                </select>
+
+            </fieldset>
 
         </form>
     </main>
