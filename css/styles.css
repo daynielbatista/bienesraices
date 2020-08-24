@@ -294,8 +294,12 @@ h4{
 .contacto p {
     font-size: 1.5rem;
     color: #4f4f4f;
-    margin: 2rem 0 0 0;
+    margin: 1rem 0 0 0;
 }
+.contacto p:first-of-type {
+    margin: 0;
+}
+
 legend {
     font-size: 2rem;
     color: #4f4f4f;
@@ -327,10 +331,9 @@ textarea {
     height: 20rem;
 }
 .forma-contacto {
-    max-width: 30rem;
+    max-width: 20rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
